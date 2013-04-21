@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA0A9539172414460018D08C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0A9538172414460018D08C /* UIKit.framework */; };
+		AA0A953B172414460018D08C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0A953A172414460018D08C /* Foundation.framework */; };
+		AA0A953D172414460018D08C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA0A953C172414460018D08C /* CoreGraphics.framework */; };
+		AA0A9543172414460018D08C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AA0A9541172414460018D08C /* InfoPlist.strings */; };
+		AA0A9545172414460018D08C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9544172414460018D08C /* main.m */; };
+		AA0A9549172414460018D08C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9548172414460018D08C /* AppDelegate.m */; };
+		AA0A954B172414460018D08C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0A954A172414460018D08C /* Default.png */; };
+		AA0A954D172414460018D08C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0A954C172414460018D08C /* Default@2x.png */; };
+		AA0A954F172414460018D08C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AA0A954E172414460018D08C /* Default-568h@2x.png */; };
+		AA0A9552172414460018D08C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A9551172414460018D08C /* ViewController.m */; };
+		AA0A9555172414460018D08C /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA0A9553172414460018D08C /* ViewController.xib */; };
+		AA0A955E172414850018D08C /* PickerItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = AA0A955C172414850018D08C /* PickerItemView.m */; };
+		AA0A955F172414850018D08C /* PickerItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA0A955D172414850018D08C /* PickerItemView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA0A9535172414460018D08C /* Resistor Cal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Resistor Cal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA0A9538172414460018D08C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AA0A953A172414460018D08C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AA0A953C172414460018D08C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AA0A9540172414460018D08C /* Resistor Cal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Resistor Cal-Info.plist"; sourceTree = "<group>"; };
+		AA0A9542172414460018D08C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AA0A9544172414460018D08C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA0A9546172414460018D08C /* Resistor Cal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Resistor Cal-Prefix.pch"; sourceTree = "<group>"; };
+		AA0A9547172414460018D08C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA0A9548172414460018D08C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA0A954A172414460018D08C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AA0A954C172414460018D08C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AA0A954E172414460018D08C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AA0A9550172414460018D08C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA0A9551172414460018D08C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA0A9554172414460018D08C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		AA0A955B172414850018D08C /* PickerItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerItemView.h; sourceTree = "<group>"; };
+		AA0A955C172414850018D08C /* PickerItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerItemView.m; sourceTree = "<group>"; };
+		AA0A955D172414850018D08C /* PickerItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PickerItemView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA0A9532172414460018D08C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0A9539172414460018D08C /* UIKit.framework in Frameworks */,
+				AA0A953B172414460018D08C /* Foundation.framework in Frameworks */,
+				AA0A953D172414460018D08C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA0A952C172414460018D08C = {
+			isa = PBXGroup;
+			children = (
+				AA0A953E172414460018D08C /* Resistor Cal */,
+				AA0A9537172414460018D08C /* Frameworks */,
+				AA0A9536172414460018D08C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA0A9536172414460018D08C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A9535172414460018D08C /* Resistor Cal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA0A9537172414460018D08C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A9538172414460018D08C /* UIKit.framework */,
+				AA0A953A172414460018D08C /* Foundation.framework */,
+				AA0A953C172414460018D08C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AA0A953E172414460018D08C /* Resistor Cal */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A955B172414850018D08C /* PickerItemView.h */,
+				AA0A955C172414850018D08C /* PickerItemView.m */,
+				AA0A955D172414850018D08C /* PickerItemView.xib */,
+				AA0A9547172414460018D08C /* AppDelegate.h */,
+				AA0A9548172414460018D08C /* AppDelegate.m */,
+				AA0A9550172414460018D08C /* ViewController.h */,
+				AA0A9551172414460018D08C /* ViewController.m */,
+				AA0A9553172414460018D08C /* ViewController.xib */,
+				AA0A953F172414460018D08C /* Supporting Files */,
+			);
+			path = "Resistor Cal";
+			sourceTree = "<group>";
+		};
+		AA0A953F172414460018D08C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AA0A9540172414460018D08C /* Resistor Cal-Info.plist */,
+				AA0A9541172414460018D08C /* InfoPlist.strings */,
+				AA0A9544172414460018D08C /* main.m */,
+				AA0A9546172414460018D08C /* Resistor Cal-Prefix.pch */,
+				AA0A954A172414460018D08C /* Default.png */,
+				AA0A954C172414460018D08C /* Default@2x.png */,
+				AA0A954E172414460018D08C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA0A9534172414460018D08C /* Resistor Cal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0A9558172414460018D08C /* Build configuration list for PBXNativeTarget "Resistor Cal" */;
+			buildPhases = (
+				AA0A9531172414460018D08C /* Sources */,
+				AA0A9532172414460018D08C /* Frameworks */,
+				AA0A9533172414460018D08C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Resistor Cal";
+			productName = "Resistor Cal";
+			productReference = AA0A9535172414460018D08C /* Resistor Cal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA0A952D172414460018D08C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Steve Chiang";
+			};
+			buildConfigurationList = AA0A9530172414460018D08C /* Build configuration list for PBXProject "Resistor Cal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AA0A952C172414460018D08C;
+			productRefGroup = AA0A9536172414460018D08C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA0A9534172414460018D08C /* Resistor Cal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA0A9533172414460018D08C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0A9543172414460018D08C /* InfoPlist.strings in Resources */,
+				AA0A954B172414460018D08C /* Default.png in Resources */,
+				AA0A954D172414460018D08C /* Default@2x.png in Resources */,
+				AA0A954F172414460018D08C /* Default-568h@2x.png in Resources */,
+				AA0A9555172414460018D08C /* ViewController.xib in Resources */,
+				AA0A955F172414850018D08C /* PickerItemView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA0A9531172414460018D08C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0A9545172414460018D08C /* main.m in Sources */,
+				AA0A9549172414460018D08C /* AppDelegate.m in Sources */,
+				AA0A9552172414460018D08C /* ViewController.m in Sources */,
+				AA0A955E172414850018D08C /* PickerItemView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AA0A9541172414460018D08C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA0A9542172414460018D08C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AA0A9553172414460018D08C /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA0A9554172414460018D08C /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA0A9556172414460018D08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA0A9557172414460018D08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA0A9559172414460018D08C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resistor Cal/Resistor Cal-Prefix.pch";
+				INFOPLIST_FILE = "Resistor Cal/Resistor Cal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AA0A955A172414460018D08C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Resistor Cal/Resistor Cal-Prefix.pch";
+				INFOPLIST_FILE = "Resistor Cal/Resistor Cal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA0A9530172414460018D08C /* Build configuration list for PBXProject "Resistor Cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0A9556172414460018D08C /* Debug */,
+				AA0A9557172414460018D08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0A9558172414460018D08C /* Build configuration list for PBXNativeTarget "Resistor Cal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0A9559172414460018D08C /* Debug */,
+				AA0A955A172414460018D08C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA0A952D172414460018D08C /* Project object */;
+}
