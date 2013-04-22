@@ -10,6 +10,7 @@
 #import "PickerItemView.h"
 @interface ViewController ()
 -(NSString*)calculateOhmByTen:(NSInteger)ten andOne:(NSInteger)one forPow:(NSInteger)pow andPms:(NSInteger)pms;
+-(BOOL)isInt:(float)input;
 @end
 
 @implementation ViewController
@@ -100,7 +101,12 @@
             break;
     }
     
-    resultStr = [NSString stringWithFormat:@"%.1lf%@Ω", result, unitStr];
+    if ([self isInt:result]) {
+        resultStr = [NSString stringWithFormat:@"%.0lf%@Ω", result, unitStr];
+    } else {
+        resultStr = [NSString stringWithFormat:@"%.1lf%@Ω", result, unitStr];
+    }
+    
     switch (pms) {
         case 0:
             resultStr = [NSString stringWithFormat:@"%@ ±5％", resultStr];
@@ -114,4 +120,13 @@
     return resultStr;
 }
 
+-(BOOL)isInt:(float)input {
+    BOOL result = NO;
+    float inputRound = roundf(input);
+    float less = input - inputRound;
+    if (less == 0) {
+        result = YES;
+    }
+    return result;
+}
 @end
